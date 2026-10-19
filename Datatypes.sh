@@ -18,5 +18,5 @@ echo "First Fruit :${FRUITS[0]}"
 
 name="Amar"
 
-echo "$nameNath"
+echo "${name}Nath"
 
