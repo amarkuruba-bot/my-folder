@@ -4,7 +4,7 @@ echo "Please enter marks"
 read marks 
 
 if [$marks -lt 33]; then
-    echo "Pass"
+    echo "Fail"
 elif [$marks -lt 50]; then
     echo "Third Class"
 elif [$marks -lt 60]; then
