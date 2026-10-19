@@ -3,13 +3,13 @@
 echo "Please enter marks"
 read marks 
 
-if [$marks -lt 33];then
+if [$marks -lt 33]; then
     echo "Pass"
-elif [$marks -lt 50];then
+elif [$marks -lt 50]; then
     echo "Third Class"
-elif [$marks -lt 60];then
+elif [$marks -lt 60]; then
     echo "Second Class"
-elif [$marks -lt 75];then
+elif [$marks -lt 75]; then
     echo "First Class"
 else 
  echo "Distinction"
