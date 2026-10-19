@@ -16,7 +16,7 @@ FRUITS=("Apple" "Banana" "Grapes") # This is called array
 echo "All Frutis: ${FRUITS[@]}"
 echo "First Fruit :${FRUITS[0]}"
 
-name="AmarkhkhskdhASKDHkalshd"
+name="Amar"
 
 echo "${name}Nath"
 
