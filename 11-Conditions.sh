@@ -22,4 +22,5 @@ echo "my sql client installation is failed"
 else 
 echo "mysql client installation success"
 fi 
+echo "Still Proceed..."
 

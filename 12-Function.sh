@@ -1,0 +1,28 @@
+#!/bin/bash
+
+if [ $uder_id -ne 0 ]; then
+echo "please run the script with sudo access"
+exit 1
+
+fi
+echo "proceeding further..."
+
+validate(){
+    if [ $1 -ne 0 ]; then 
+     echo "${2} Failed ..."
+    else 
+     echo "${2} Success..."
+     }
+
+     fi
+
+     echo "proceeding ..."
+
+     dnf install nginx -y
+     validate $? "Nginx Installation"
+
+     dnf install mysql -y
+     validate $? "Mysql Installation"
+
+     echo "Proceeding further Installations ..."
+     
