@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $uder_id -ne 0 ]; then
+if [ $user_id -ne 0 ]; then
 echo "please run the script with sudo access"
 exit 1
 
