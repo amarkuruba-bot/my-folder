@@ -15,11 +15,11 @@ validate(){
      exit 1
     else 
      echo "${2} Success..."
+
+fi 
    
      }
 
-     fi
-     
 
      echo "proceeding ..."
 
